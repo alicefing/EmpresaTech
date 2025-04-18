@@ -7,6 +7,7 @@
     <title>Empresa TECH</title>
     <link rel="icon" type="image/png" href="./imagem/tecnologia.png">
     <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 </head>
 <body>
     <nav>
@@ -18,21 +19,28 @@
             <li><a href="conteudomulti.html">Conteúdo Multimídia</a></li>
         </ul>
     </nav>
+    <br> <br> 
     <section id="contato">
         <br> <br>
         <h2>Entre em Contato</h2>
-        <form> 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="caixa">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Suas informações estarão protegidas</div>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Aceito os Termos De Uso</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </section>
 </body>
 
