@@ -40,45 +40,63 @@
     </section>
     <hr>
     <section id="contato">
+        <br> <br>
         <h2>Entre em Contato</h2>
-        <form> 
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="text" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section> 
+        <div class="caixa">
+            <form>
+                <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <br>
+                <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Aceito os Termos De Uso</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
 <body>
 
 <footer>
-    <p>Siga-nos nas redes sociais:</p>
-    <br>
-    <ul class="social-links">
-        <li>
-            <a href="https://www.facebook.com" target="_blank">
-                <img src="./imagem/facebook.png" alt="Facebook" width="40">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com" target="_blank">
-                <img src="./imagem/instagram.png" alt="Instagram" width="40">
-            </a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com" target="_blank">
-                <img src="./imagem/linkedin.png" alt="LinkedIn" width="40">
-            </a>
-        </li>
-    </ul>
-    <br>
-    <p>&copy; 2025 Empresa Tech Es - todos os direitos reservados.</p>
+    <div class="social-section">
+        <p>Siga-nos nas redes sociais:</p>
+        <ul class="social-links">
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./imagem/facebook.png" alt="Facebook" width="40">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./imagem/instagram.png" alt="Instagram" width="40">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="./imagem/linkedin.png" alt="LinkedIn" width="40">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="form-container">
+        <form>  
+            <p class="form-text">Tem dúvidas?</p>
+            <div class="input-container">
+                <input type="email" id="email" name="email" class="form-input" placeholder="seuemail@exemplo.com" required>
+                <button type="submit" class="form-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <div class="copy-section">
+        <p>&copy; 2025 Empresa Tech ES - todos os direitos reservados.</p>
+    </div>
 </footer>
+    
 
 </html>
 

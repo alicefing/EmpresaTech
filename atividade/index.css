@@ -99,17 +99,34 @@ form button:hover {
 footer {
     background: rgb(12, 43, 63);
     color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: auto;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.social-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
 }
 
 .social-links {
-    gap: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style: none;
 }
 
-.social-links li {
-    display: inline-block;
+
+.copy-section {
+    margin-left: auto;
+    text-align: right;
+    margin-top: 80px;
 }
 
 #servico-desk,
@@ -146,7 +163,7 @@ footer {
 }
 
 .caixa {
-    background-color: #f2f2f2; /* cinza claro */
+    background-color: #f2f2f2; 
     padding: 30px;
     border-radius: 10px;
     max-width: 400px;
@@ -156,4 +173,37 @@ footer {
 .form-label {
     text-align: left;
     display: block;
+}
+
+.form-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff !important;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.form-button {
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 60px;
+    font-size: 11px;
+}
+
+.form-input {
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
