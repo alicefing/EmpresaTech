@@ -15,7 +15,7 @@ body {
 
 /* Estilo para a navegação fixa no topo */
 nav {
-    background: black;
+    background: black !important;
     padding: 15px;
     position: fixed;
     width: 100%;
@@ -115,7 +115,7 @@ form button:hover {
 
 /* Estilo para o footer */
 footer {
-    background: rgb(12, 43, 63);
+    background: rgb(0, 0, 0) !important;
     color: white;
     padding: 15px 40px;
     display: flex;
@@ -246,3 +246,4 @@ footer {
     display: flex;
     margin-left: 10px;
 }
+
