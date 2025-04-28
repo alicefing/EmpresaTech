@@ -45,7 +45,7 @@ nav ul li a {
 
 /* Estilo para o hover dos links */
 nav ul li a:hover {
-    color: rgb(216, 167, 77);
+    color: rgb(216, 167, 77) !important
 }
 
 /* Estilo para a seção inicial (home) */
