@@ -1,3 +1,4 @@
+/* Reseta as margens, preenchimentos e configura o box-sizing */
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +6,14 @@
     font-family: Arial, sans-serif;
 }
 
+/* Estilo para o corpo, garantindo um layout flexível */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
+/* Estilo para a navegação fixa no topo */
 nav {
     background: black;
     padding: 15px;
@@ -21,26 +24,31 @@ nav {
     text-align: center;
 }
 
+/* Estilo para a lista da navegação */
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
+/* Estilo para os itens do menu */
 nav ul li {
     margin: 15px;
 }
 
+/* Estilo dos links da navegação */
 nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
+/* Estilo para o hover dos links */
 nav ul li a:hover {
     color: rgb(216, 167, 77);
 }
 
+/* Estilo para a seção inicial (home) */
 #home {
     background: url('./imagem/tech.jpg') center/cover no-repeat;
     color: white;
@@ -52,20 +60,24 @@ nav ul li a:hover {
     align-items: center;
 }
 
+/* Estilo para o título principal */
 #home h1 {
     font-size: 40px;
 }
 
+/* Estilo para o subtítulo */
 #home p {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Estilo para seções gerais */
 section {
     padding: 80px 20px;
     text-align: center;
 }
 
+/* Estilo para os formulários */
 form {
     display: flex;
     flex-direction: column;
@@ -73,18 +85,22 @@ form {
     margin: auto;
 }
 
+/* Estilo para os rótulos dos campos do formulário */
 form label {
     text-align: left;
     margin-top: 10px;
     font-weight: bold;
 }
 
-form input, form textarea {
+/* Estilo para os campos de entrada (input e textarea) */
+form input,
+form textarea {
     padding: 10px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
 }
 
+/* Estilo para o botão de envio do formulário */
 form button {
     background: black;
     color: white;
@@ -92,10 +108,12 @@ form button {
     cursor: pointer;
 }
 
+/* Estilo para o hover do botão */
 form button:hover {
     background: rgb(216, 167, 77);
 }
 
+/* Estilo para o footer */
 footer {
     background: rgb(12, 43, 63);
     color: white;
@@ -106,6 +124,7 @@ footer {
     flex-wrap: wrap;
 }
 
+/* Estilo para a seção de redes sociais no footer */
 .social-section {
     display: flex;
     flex-direction: column;
@@ -113,6 +132,7 @@ footer {
     margin-left: 70px;
 }
 
+/* Estilo para os links sociais */
 .social-links {
     display: flex;
     gap: 30px;
@@ -122,13 +142,14 @@ footer {
     list-style: none;
 }
 
-
+/* Estilo para a seção de copyright */
 .copy-section {
     margin-left: auto;
     text-align: right;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
+/* Estilo para as seções de serviço */
 #servico-desk,
 #servico-mob {
     display: flex;
@@ -141,12 +162,14 @@ footer {
     margin: 0 auto; 
 }
 
+/* Estilo para o conteúdo multimídia */
 .conteudo-multimidia h1 {
     font-size: 20px;
     margin-top: 20px; 
     margin-bottom: 20px;
 }
 
+/* Estilo personalizado para o botão primário */
 .btn.btn-primary {
     background-color: #003366 !important; 
     border-color: #003366 !important;
@@ -155,15 +178,17 @@ footer {
     padding: 8px;
     width: 200px;
 }
-  
-  .btn.btn-primary:hover,
-  .btn.btn-primary:focus,
-  .btn.btn-primary:active {
+
+/* Efeito de hover para o botão primário */
+.btn.btn-primary:hover,
+.btn.btn-primary:focus,
+.btn.btn-primary:active {
     background-color: #ff8000 !important; 
     border-color: #ff8000 !important;
     color: white !important;
 }
 
+/* Estilo para a caixa de formulário */
 .caixa {
     background-color: #f2f2f2; 
     padding: 30px;
@@ -172,11 +197,13 @@ footer {
     margin: 40px auto;  
 }
 
+/* Estilo para os rótulos dos campos de formulário */
 .form-label {
     text-align: left;
     display: block;
 }
 
+/* Estilo para o texto do formulário */
 .form-text {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff !important;
@@ -184,6 +211,7 @@ footer {
     margin-bottom: 4px;
 }
 
+/* Estilo para o botão dentro do formulário */
 .form-button {
     border-radius: 8px;
     padding: 5px 10px;
@@ -191,6 +219,7 @@ footer {
     font-size: 11px;
 }
 
+/* Estilo para os campos de entrada do formulário */
 .form-input {
     padding: 4px;
     font-size: 13px;
@@ -198,19 +227,22 @@ footer {
     border: 1px solid #ccc;
 }
 
+/* Estilo para o contêiner de formulário */
 .form-container {
     display: flex;
     flex-direction: column;
     margin-left: 90px;
 }
 
+/* Estilo para o contêiner de entrada no formulário */
 .input-container {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.form-check-label{
+/* Estilo para o rótulo da checkbox */
+.form-check-label {
     display: flex;
     margin-left: 10px;
 }
