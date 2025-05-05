@@ -95,7 +95,7 @@ form label {
 /* Estilo para os campos de entrada (input e textarea) */
 form input,
 form textarea {
-    padding: 10px;
+    padding: 2px !important;
     border: 1px solid whitesmoke;
     border-radius: 5px;
 }
@@ -179,6 +179,15 @@ footer {
     width: 200px;
 }
 
+.btn.btn-primary-2 {
+    background-color: #003366 !important; 
+    border-color: #003366 !important;
+    color: white !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    padding: 2px;
+    width: 90px;
+}
+
 /* Efeito de hover para o botão primário */
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
@@ -247,3 +256,6 @@ footer {
     margin-left: 10px;
 }
 
+.form-input::placeholder {
+    font-size: 0.80rem; /* ou qualquer tamanho desejado, ex: 12px */
+}
