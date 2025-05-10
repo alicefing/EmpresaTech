@@ -258,7 +258,7 @@ footer {
 }
 
 .form-input::placeholder {
-    font-size: 0.80rem; /* ou qualquer tamanho desejado, ex: 12px */
+    font-size: 0.80rem; 
 }
 
 
@@ -275,3 +275,26 @@ footer {
     margin-right: 80px;
 }
 
+.lista-fazer {
+    list-style-position: inside;
+    text-align: justify;
+}
+
+.card-sobre {
+    height: 100%;
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    border-radius: 10px;
+}
+  
+.card-body-sobre {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto-fundacao{
+    list-style-position: inside;
+    text-align: justify;
+}
