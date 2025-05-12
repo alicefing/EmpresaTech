@@ -37,8 +37,12 @@
         <h2 class="text-center mb-4">Entre em Contato</h2>
         <div class="row justify-content-center w-100">
             <div class="col-md-6">
-                <div class="card p-4 shadow-sm border-0" style="background-color: #e8eaec; width: 100%; max-width: 400px; margin: 0 auto;">
                     <form>
+                        <div class="mb-3">
+                            <label for="exampleInputNome1" class="form-label">Nome</label>
+                            <input type="name" class="form-control" id="exampleInputnome1" aria-describedby="nomeHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -47,10 +51,19 @@
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Senha</label>
                             <input type="password" class="form-control" id="exampleInputPassword1">
+                            <div id="passwordHelpBlock" class="form-text">
                         </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Aceito os Termos de Uso</label>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
+                                <label class="form-check-label" for="checkChecked">
+                                    Aceito os Termos de Uso
+                                </label>
+                            </div>
                         </div>
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">Enviar</button>
