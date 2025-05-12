@@ -273,6 +273,7 @@ footer {
     text-align: justify;
     margin-left: 80px;
     margin-right: 80px;
+    font-size: 17px;
 }
 
 .lista-fazer {
@@ -297,6 +298,7 @@ footer {
 .texto-fundacao{
     list-style-position: inside;
     text-align: justify;
+    font-size: 17px;
 }
 
 .video {
