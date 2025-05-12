@@ -190,6 +190,7 @@ footer {
 }
 
 /* Efeito de hover para o botão primário */
+.btn.btn-primary-2:hover,
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
 .btn.btn-primary:active {
