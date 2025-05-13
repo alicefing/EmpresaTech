@@ -1,0 +1,49 @@
+/* Reseta as margens, preenchimentos e configura o box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o corpo, garantindo um layout flexível */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo para a navegação fixa no topo */
+nav {
+    background: black !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+/* Estilo para a lista da navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo para os itens do menu */
+nav ul li {
+    margin: 15px;
+}
+
+/* Estilo dos links da navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo para o hover dos links */
+nav ul li a:hover {
+    color: rgb(216, 167, 77) !important
+}
