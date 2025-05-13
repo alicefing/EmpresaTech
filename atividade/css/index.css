@@ -50,7 +50,7 @@ nav ul li a:hover {
 
 /* Estilo para a seção inicial (home) */
 #home {
-    background: url('./imagem/tech.jpg') center/cover no-repeat;
+    background: url('../imagem/tech.jpg') center/cover no-repeat;
     color: white;
     text-align: center;
     height: 100vh;
